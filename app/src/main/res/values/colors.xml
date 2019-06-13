@@ -3,13 +3,4 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
-
-    <color name="transparent">#00000000</color><!-- 透明 黑色 -->
-    <color name="transparent_blank_5">#55000000</color><!-- 半透明 黑色 -->
-    <color name="black">#FF000000</color><!-- 全黑 -->
-    <color name="a5">#A5A5A5</color>
-    <color name="pink_acfun">#FD4C5B</color><!-- Acfun主题色 -->
-
-    <color name="blue_shadow_50">#503F51B5</color>
-    <color name="_8c">#8c8c8c</color>
 </resources>

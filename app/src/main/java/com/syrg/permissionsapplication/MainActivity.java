@@ -3,29 +3,20 @@ package com.syrg.permissionsapplication;
 import android.app.Activity;
 import android.app.Dialog;
 import android.content.DialogInterface;
-import android.content.Intent;
-import android.net.Uri;
-import android.os.Build;
 import android.os.Handler;
 import android.os.Message;
-import android.provider.Settings;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.text.TextUtils;
 import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
 
-import com.syrg.permissionsapplication.dialog.DialogHelper;
-import com.syrg.permissionsapplication.dialog.RxDialogEditSureCancel;
-import com.syrg.permissionsapplication.dialog.RxDialogLoading;
-import com.syrg.permissionsapplication.dialog.RxDialogSureCancel;
-import com.syrg.permissionsapplication.permissions.PermissionUtils;
-import com.syrg.permissionsapplication.permissions.RxPermissions;
+
+import com.syrg.permissionlibrary.dialog.DialogHelper;
+import com.syrg.permissionlibrary.permissions.PermissionUtils;
+import com.syrg.permissionlibrary.permissions.RxPermissions;
 
 import java.util.List;
-
-import static android.R.attr.dial;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
