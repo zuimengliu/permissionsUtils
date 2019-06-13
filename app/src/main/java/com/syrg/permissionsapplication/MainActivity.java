@@ -37,7 +37,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         mContext = this;
         setContentView(R.layout.activity_main);
         initView();
-//        requestUsePermissions();
     }
 
     private void initView() {
@@ -65,7 +64,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                             @Override
                             public void onClick(DialogInterface dialog, int which) {
                                 if (DialogInterface.BUTTON_POSITIVE==which){
-//                                    startActivity(new Intent(Settings.ACTION_APPLICATION_SETTINGS));
                                     try {
                                         PermissionUtils.toPermissionSetting(MainActivity.this);
                                     } catch (Exception e) {
