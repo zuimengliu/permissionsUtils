@@ -12,7 +12,7 @@ import android.widget.Button;
 import android.widget.Toast;
 
 
-import com.syrg.permissionlibrary.dialog.DialogHelper;
+import com.syrg.dialoglibrary.dialog.DialogHelper;
 import com.syrg.permissionlibrary.permissions.PermissionUtils;
 import com.syrg.permissionlibrary.permissions.RxPermissions;
 
