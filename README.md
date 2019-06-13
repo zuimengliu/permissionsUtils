@@ -12,10 +12,6 @@
 
 > Step 2. 然后在 build.gradle(Module:app) 的 dependencies 添加:
 
-    dependencies { 
-    	compile 'com.github.zuimengliu.permissionsUtils:dialoglibrary:1.2' compile'com.github.zuimengliu.permissionsUtils:permissionlibrary:1.2' 
-    }
-
     dependencies {
        compile 'com.github.zuimengliu.permissionsUtils:dialoglibrary:1.2'
        compile 'com.github.zuimengliu.permissionsUtils:permissionlibrary:1.2'
